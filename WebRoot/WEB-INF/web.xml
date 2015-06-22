@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserManageServlet</servlet-name>
+    <servlet-class>com.Servlet.UserManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDangerServlet</servlet-name>
+    <servlet-class>com.Servlet.GetDangerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DriveRecordServlet</servlet-name>
+    <servlet-class>com.Servlet.DriveRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiveDriveInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.ReceiveDriveInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMaxRecordIdServlet</servlet-name>
+    <servlet-class>com.Servlet.GetMaxRecordIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceivePositionInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.ReceivePositionInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPositionListServlet</servlet-name>
+    <servlet-class>com.Servlet.GetPositionListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiveAdviceServlet</servlet-name>
+    <servlet-class>com.Servlet.ReceiveAdviceServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserManageServlet</servlet-name>
+    <url-pattern>/servlet/UserManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDangerServlet</servlet-name>
+    <url-pattern>/servlet/GetDangerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DriveRecordServlet</servlet-name>
+    <url-pattern>/servlet/DriveRecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiveDriveInfoServlet</servlet-name>
+    <url-pattern>/servlet/ReceiveDriveInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMaxRecordIdServlet</servlet-name>
+    <url-pattern>/servlet/GetMaxRecordIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceivePositionInfoServlet</servlet-name>
+    <url-pattern>/servlet/ReceivePositionInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPositionListServlet</servlet-name>
+    <url-pattern>/servlet/GetPositionListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiveAdviceServlet</servlet-name>
+    <url-pattern>/servlet/ReceiveAdviceServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
