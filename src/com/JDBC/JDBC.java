@@ -23,6 +23,7 @@ public class JDBC {
 	private Connection connection;
 	private UserManageDB usermanage;
 
+	// huhhhh
 	public JDBC() {
 		// TODO Auto-generated constructor stub
 		usermanage = new UserManageDB();
@@ -127,7 +128,8 @@ public class JDBC {
 
 	public String uploadAdvice(String username, String Time, String userbackText) {
 		String uploadResult = null;
-		AddUserBackToDB addUserBackToDB = new AddUserBackToDB(username, Time, userbackText, connection);
+		AddUserBackToDB addUserBackToDB = new AddUserBackToDB(username, Time,
+				userbackText, connection);
 		uploadResult = addUserBackToDB.ToDB();
 		return uploadResult;
 	}
